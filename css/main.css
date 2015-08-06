@@ -1,0 +1,112 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+
+object[type^="application/gas"] { display: none; }
+
+body {
+	background: #f5f5f5;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+h1{
+	font-weight: 300;
+}
+
+header {
+	background: #000;
+	z-index: 10;
+}
+
+header .profile {
+	padding-top: 10px;
+	text-align: center;
+	color: #fff;
+}
+header .profile .title {
+	margin: 0px;
+	font-size: 30px;
+}
+
+header .profile .subtitle {
+}
+
+header .menu {
+	padding-top: 15px;
+}
+header .menu img {
+	padding-bottom: 20px;
+}
+
+header .menu img {
+	padding-left: 10px;
+}
+
+header .menu a {
+	color: #fff;
+	font-size: 30px;
+	padding-top: 13px;
+	padding-right: 10px;
+}
+
+header .menu a:hover {
+	text-decoration: none;
+	opacity: 0.5;
+}
+
+.about p {
+	font-size: 16px;
+}
+
+.skills .chips div{
+	float: left;
+	background: #e0e0e0;
+	border-radius: 15px;
+	margin: 5px;
+	padding: 5px 10px; 
+	font-size: 16px;
+}
+
+.skills .chips div:hover{
+	background: #ccc;
+	cursor: default;
+}
+
+.projects {
+	padding-bottom: 20px;
+}
+
+.projects .project {
+	padding-bottom: 10px;
+}
+
+.projects .project .img {
+	background: #000;
+	height: 150px;
+	padding: 0px 5px;
+}
+
+.projects .project .title {
+	text-align: center;
+}
+
+footer .social {
+	background: #212121;
+	color: #fff;
+	padding: 20px 0px;
+}
+
+footer .social .media {
+	text-align: center;
+	padding: 20px 0px;
+}
+
+footer .social .media a:hover img {
+	opacity: 0.5;
+}
+
+footer .copyright {
+	background: #000;
+	color: #fff;
+	padding: 10px 0px;
+	text-align: center;
+}
