@@ -2,9 +2,9 @@
 
 object[type^="application/gas"] { display: none; }
 
-@media (max-width: 768px) { 
-	h1 {
-		text-align: center;
+@media (max-width: 768px) {
+	header .profile .title {
+    font-size: 50px !important;
 	}
 }
 
@@ -14,26 +14,40 @@ body {
 	font-weight: 300;
 }
 
+hr {
+  border-top: 1px dotted #999;
+}
+
 h1{
+	text-align: center;
 	font-weight: 300;
 }
 
 header {
-	background: #000;
+	background: #000 url('../img/header.jpg') no-repeat center;
 	z-index: 10;
 }
 
 header .profile {
 	padding-top: 10px;
+	padding-bottom: 60px;
 	text-align: center;
 	color: #fff;
 }
 header .profile .title {
 	margin: 0px;
-	font-size: 30px;
+	font-size: 60px;
+  font-weight: bold;
 }
 
 header .profile .subtitle {
+  font-size: 17px;
+  font-style: italic;
+}
+
+header .profile .arrow-down{
+	position: absolute;
+	top: 10px;
 }
 
 header .menu {
@@ -49,26 +63,35 @@ header .menu img {
 
 header .menu a {
 	color: #fff;
-	font-size: 30px;
-	padding-top: 13px;
-	padding-right: 10px;
+	font-size: 18px;
+  padding: 5px 20px;
+  border: #fff 1px solid;
 }
 
 header .menu a:hover {
 	text-decoration: none;
-	opacity: 0.5;
+	background: #fff;
+	color: #000;
 }
 
+.about {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
 .about p {
 	font-size: 16px;
 }
 
+.skills {
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
 .skills .chips div{
 	float: left;
 	background: #e0e0e0;
 	border-radius: 15px;
 	margin: 5px;
-	padding: 5px 10px; 
+	padding: 5px 10px;
 	font-size: 16px;
 }
 
@@ -78,7 +101,8 @@ header .menu a:hover {
 }
 
 .projects {
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 40px;
 }
 
 .projects .project {
@@ -98,12 +122,21 @@ header .menu a:hover {
 footer .social {
 	background: #212121;
 	color: #fff;
-	padding: 20px 0px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+footer .social .mail, footer .social a {
+	color: #777;
 }
 
 footer .social .media {
 	text-align: center;
-	padding: 20px 0px;
+  padding-bottom: 20px;
+}
+
+footer .social .media img {
+	max-height: 12vh;
 }
 
 footer .social .media a:hover img {
@@ -112,7 +145,7 @@ footer .social .media a:hover img {
 
 footer .copyright {
 	background: #000;
-	color: #fff;
+	color: #777;
 	padding: 10px 0px;
 	text-align: center;
 }
