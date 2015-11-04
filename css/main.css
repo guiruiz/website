@@ -67,6 +67,7 @@ header .menu a {
 	font-size: 18px;
   padding: 5px 20px;
   border: #fff 1px solid;
+	text-decoration: none;
 }
 
 header .menu a:hover {
