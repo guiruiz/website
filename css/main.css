@@ -45,9 +45,10 @@ header .profile .subtitle {
   font-style: italic;
 }
 
-header .profile .arrow-down{
+header .profile #arrow-down{
 	position: absolute;
 	top: 10px;
+	cursor: pointer;
 }
 
 header .menu {

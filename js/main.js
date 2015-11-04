@@ -21,4 +21,10 @@ $(document).ready(function(){
 			//showProfile();
 		}
 	});
+	
+	$('#arrow-down').hover(function(){
+		$('#arrow-down').stop().animate({ top: 20 }, {duration: 300});
+	}, function(){
+		$('#arrow-down').stop().animate({ top: 10 }, {duration: 300});
+	});
 });
