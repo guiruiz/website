@@ -75,22 +75,22 @@ header .menu a:hover {
 	color: #000;
 }
 
-.about {
+#about {
 	padding-top: 30px;
 	padding-bottom: 20px;
 }
-.about p {
+#about p {
 	font-size: 16px;
 }
 
-.skills {
+#skills {
 	padding-top: 10px;
 	padding-bottom: 30px;
 }
-.skills .chips{
+#skills .chips{
 	text-align: center;
 }
-.skills .chips div{
+#skills .chips div{
 	display: inline-block;
 	background: #e0e0e0;
 	border-radius: 15px;
@@ -99,55 +99,55 @@ header .menu a:hover {
 	font-size: 16px;
 }
 
-.skills .chips div:hover{
+#skills .chips div:hover{
 	background: #ccc;
 	cursor: default;
 }
 
-.projects {
+#projects {
 	padding-top: 10px;
 	padding-bottom: 40px;
 }
 
-.projects .project {
+#projects .project {
 	padding-bottom: 10px;
 }
 
-.projects .project .img {
+#projects .project .img {
 	background: #000;
 	height: 150px;
 	padding: 0px 5px;
 }
 
-.projects .project .title {
+#projects .project .title {
 	text-align: center;
 }
 
-footer .social {
+footer #social {
 	background: #212121;
 	color: #fff;
 	padding-top: 30px;
 	padding-bottom: 20px;
 }
 
-footer .social .mail, footer .social a {
+footer #social .mail, footer #social a {
 	color: #777;
 }
 
-footer .social .media {
+footer #social .media {
 	text-align: center;
   padding-bottom: 20px;
 }
 
-footer .social .media img {
+footer #social .media img {
 	max-height: 12vh;
 }
 
-footer .social .media a:hover img {
+footer #social .media a:hover img {
 	opacity: 0.5;
 }
 
-footer .copyright {
+footer #copyright {
 	background: #000;
 	color: #777;
 	padding: 10px 0px;
