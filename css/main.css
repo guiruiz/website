@@ -86,8 +86,11 @@ header .menu a:hover {
 	padding-top: 10px;
 	padding-bottom: 30px;
 }
+.skills .chips{
+	text-align: center;
+}
 .skills .chips div{
-	float: left;
+	display: inline-block;
 	background: #e0e0e0;
 	border-radius: 15px;
 	margin: 5px;
