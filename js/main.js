@@ -15,13 +15,13 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 		if($(this).scrollTop() > 232){
 			console.log("hide");
-			//hideProfile();
+			hideProfile();
 		}else{
 			console.log("show");
-			//showProfile();
+			showProfile();
 		}
 	});
-	
+
 	$('#arrow-down').hover(function(){
 		$('#arrow-down').stop().animate({ top: 20 }, {duration: 300});
 	}, function(){
